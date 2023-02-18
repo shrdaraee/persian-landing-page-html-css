@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>flowerShop</title>
+</head>
+
+<body dir="rtl">
+  <!-- header -->
+  <header>
+    <div class="hidden lg:block">
+      <div class="bg-gray-500 py-2">
+        <div class="flex justify-between px-10">
+          <div class="text-white flex mt-1">
+            <a href="#">
+              <img src="assets/user.png" class="mx-2 w-5 h-5" />
+            </a>
+
+            <a href="#">
+              <img src="assets/heart.png" class="mx-2 w-5 h-5" />
+            </a>
+            <a href="#">
+              <img src="assets/shop.png" class="mx-2 w-5 h-5" />
+            </a>
+            <a href="#">
+              <img src="assets/search-normal.png" class="mx-2 w-5 h-5" />
+            </a>
+          </div>
+          <div class="text-white">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+          </div>
+
+          <div class="text-white flex mt-1">
+            <a href="#" class="hover:border-b hover:rounded-lg hover:border-rose-200">
+              <img src="assets/icons_social-facebook.png" class="mx-2 w-4 h-4" /></a>
+            <a href="#" class="hover:border-b hover:rounded-lg hover:border-rose-200">
+              <img src="assets/icons_social-instagram.png" class="mx-2 w-4 h-4" /></a>
+            <a href="#" class="hover:border-b hover:rounded-lg hover:border-rose-200">
+              <img src="assets/icons_social-linkedin.png" class="mx-2 w-4 h-4" /></a>
+            <a href="#" class="hover:border-b hover:rounded-lg hover:border-rose-200">
+              <img src="assets/icons_social-pintarest.png" class="mx-2 w-4 h-4" /></a>
+            <a href="#" class="hover:border-b hover:rounded-lg hover:border-rose-200">
+              <img src="assets/icons_social-twitter.png" class="mx-2 w-4 h-4" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="py-3 shadow-md ">
+        <div class="flex justify-between mx-10">
+
+          <div>
+            <ul class="flex text-sm mt-3">
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">صفحه اصلی</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">فروشگاه</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">وبلاگ</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">تماس با ما</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">درباره ما</a>
+              </li>
+            </ul>
+          </div>
+          <div><img src="assets/logo.png" /></div>
+          <div>
+            <ul class="flex text-sm mt-3">
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">شاخه گل </a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">باکس گل</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">سبد گل</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">گل آپارتمانی</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">تاج گل </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--responsive header-->
+    <div class="lg:hidden">
+      <div class="py-3 shadow-md ">
+        <div class="flex justify-between mx-5">
+
+          <div class="mt-3">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-7 h-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </a>
+          </div>
+          <div><img src="assets/logo.png" /></div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--hearo-->
+  <div class="mb-8 py-3 mt-12 md:mt-0">
+    <div class="sm:flex sm:justify-between">
+      <div class="md:mt-24 md:mr-10 mr-6 md:ml-0 ml-2 mt-5">
+        <p class="text-sm text-gray-400 my-3">لورم ایپسوم متن آماده</p>
+        <h2 class="md:text-3xl text-lg font-extrabold text-rose-600 my-3">گل رز سرخ</h2>
+        <h3 class="md:text-3xl text-lg font-bold text-gray-900 my-3">
+          لورم ایپسوم متن آماده
+        </h3>
+
+        <p class="text-sm text-gray-600 my-3 leading-relaxed ml-5">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+          استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+        </p>
+
+        <div class="flex justify-center sm:justify-start mt-8">
+          <button
+            class="md:py-4 md:px-12 py-2 px-10 sm:px-8 bg-rose-700 text-sm md:text-base text-white rounded-xl ml-4">
+            سفارش گل
+          </button>
+          <button
+            class="text-sm sm:px-8; md:text-base shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] md:py-4 md:px-12 py-2 px-10 text-rose-700 rounded-xl ml-4">
+            آشنایی با ما
+          </button>
+        </div>
+      </div>
+      <div>
+        <div class="lg:flex items-center justify-center mt-2 mx-8 hidden">
+          <div
+            class="shadow-[inset_0_-2px_40px_rgba(0,0,0,0.2)] rounded-t-full w-80 h-4/5 flex justify-center itemss-center">
+            <img src="assets/Rectangle 8.png" />
+          </div>
+        </div>
+      </div>
+      <div class="flex-col items-center justify-center md:mt-20 sm:mt-0 mt-20 sm:w-1/2">
+        <div
+          class="my-5 sm:w-96 h-28 mr-24 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-r-lg sm:mr-0 md:mr-24 flex justify-center">
+          <div class="px-10 sm:px-2 flex sticky left-0">
+            <img src="assets/3.png" class="-mt-8" />
+            <div class="flex-col mt-5 justify-content items-end ">
+              <h2 class="font-bold pb-2 text-blue-400">گل‌آبی</h2>
+              <p class="text-gray-400 text-sm my-2 hidden sm:flex">
+                سطرآنچنان که لازم است و برای شرایط فعلی
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="my-5 sm:w-96 h-28 ml-24 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-l-lg  sm:rounded-r-lg sm:rounded-l-none sm:ml-0 md:mr-24 flex justify-center">
+          <div class="px-10 flex   sticky right-0  sm:sticky sm:left-0">
+            <div class="flex-col mt-5 md:mr-0 justify-content items-end ">
+              <h2 class="font-bold text-rose-400 pb-2">گل‌قرمز</h2>
+              <p class="text-gray-400 text-sm hidden sm:flex">
+                سطرآنچنان که لازم است و برای شرایط فعلی
+              </p>
+            </div>
+            <img src="assets/5.png" class="-mt-8" />
+          </div>
+        </div>
+        <div
+          class="my-5 sm:w-96 h-28 mr-24 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-r-lg sm:mr-0 md:mr-24 flex justify-center">
+          <div class="px-10 sm:px-2 flex   sticky left-0">
+            <img src="assets/4.png" class="-mt-8" />
+            <div class="flex-col mt-5 justify-content items-end overflow-y-hidden">
+              <h2 class="font-bold text-yellow-400 pb-2">گل زرد</h2>
+              <p class="text-gray-400 text-sm hidden sm:flex">
+                سطرآنچنان که لازم است و برای شرایط فعلی
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--category-->
+
+  <div class="bg-[#FFFDFD] py-10 px-4">
+    <h2 class="text-xl text-gray-900 "> دسته بندی محصولات</h2>
+    <hr class="h-1 bg-rose-600 my-2 w-1/6" />
+    <div class="flex-col-reverse md:flex justify-between px-10">
+      <div class="grid grid-cols-2 mt-4 gap-3 sm:grid-cols-4 mx-2">
+        <div
+          class="flex items-center px-2 py-12 justify-center shadow-[inset_0_-2px_10px_rgba(0,0,0,0.2)] mx-2 rounded-t-full">
+          <a href="#">
+            <img src="assets/7.png" />
+          </a>
+        </div>
+        <div
+          class="flex items-center px-2 py-12 justify-center shadow-[inset_0_-2px_10px_rgba(0,0,0,0.2)] mx-2 rounded-t-full">
+          <a href="#">
+            <img src="assets/8.png" />
+          </a>
+        </div>
+        <div
+          class="flex items-center px-2 py-12 justify-center shadow-[inset_0_-2px_10px_rgba(0,0,0,0.2)] mx-2 rounded-t-full">
+          <a href="#">
+            <img src="assets/7.png" />
+          </a>
+        </div>
+        <div
+          class="flex items-center px-2 py-12 justify-center shadow-[inset_0_-2px_10px_rgba(0,0,0,0.2)] mx-2 rounded-t-full">
+          <a href="#">
+            <img src="assets/8.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!--why we-->
+
+  <div class="md:flex justify-between mx-5 md:mx-12 my-10">
+
+    <div class="pt-8 rounded-t-full shadow-[inset_0_-2px_60px_rgba(178,1,39,0.48)] hidden lg:flex">
+      <img src="assets/9.png" />
+    </div>
+
+    <div class="flex-col">
+      <h2 class="text-xl text-gray-900">چرا باید ما را انتخاب کنید؟</h2>
+      <hr class="h-1 bg-rose-600 my-2 w-1/6" />
+      <p class="text-gray-600 text-sm mb-4">
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپف بهبود
+        ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+        آینده، شناخت فراوان جامعه و سه درصد گذشته حال و آینده
+      </p>
+      <div class="grid grid-cols-2  justify-start sm:mx-10">
+
+        <div class="shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] m-2 px-6 rounded-lg p-5">
+          <div class="flex items-center">
+            <img src="assets/star.png" class="p-1 bg-rose-600 rounded-lg" />
+            <p class="text-gray-700 text-md font-bold mr-2 mt-1">
+              کیفیت بالا
+            </p>
+          </div>
+          <div class="mt-2 mr-2 text-gray-600 text-sm">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+          </div>
+        </div>
+
+        <div class="shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] m-2 px-6 rounded-lg p-5">
+          <div class="flex items-center">
+            <img src="assets/heart1.png" class="p-1 bg-rose-600 rounded-lg" />
+            <p class="text-gray-700 text-md font-bold mr-2 mt-1">
+              کیفیت بالا
+            </p>
+          </div>
+          <div class="mt-2 mr-2 text-gray-600 text-sm">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+          </div>
+        </div>
+
+        <div class="shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] m-2 px-6 rounded-lg p-5">
+          <div class="flex items-center">
+            <img src="assets/heart1.png" class="p-1 bg-rose-600 rounded-lg" />
+            <p class="text-gray-700 text-md font-bold mr-2 mt-1">
+              کیفیت بالا
+            </p>
+          </div>
+          <div class="mt-2 mr-2 text-gray-600 text-sm">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+          </div>
+        </div>
+        <div class="shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] m-2 px-6 rounded-lg p-5">
+          <div class="flex items-center">
+            <img src="assets/heart1.png" class="p-1 bg-rose-600 rounded-lg" />
+            <p class="text-gray-700 text-md font-bold mr-2 mt-1">
+              کیفیت بالا
+            </p>
+          </div>
+          <div class="mt-2 mr-2 text-gray-600 text-sm">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <!--subscribe pelan-->
+
+  <div class="lg:mx-12 mx-3 my-24">
+    <div class="rounded-xl bg-rose-700 flex-col justify-center my-10 py-6">
+      <h2 class="py-4 text-xl font-bold text-white text-center">
+        خرید اشتراکی از سایت
+      </h2>
+      <p class="py-2 pb-12 px-3 text-sm font-bold text-white text-center">
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپف بهبود
+        ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+        آینده، شناخت فراوان
+      </p>
+    </div>
+    <div class="flex justify-between  -mt-20 overflow-x-scroll lg:overflow-x-hidden">
+
+      <div
+        class="flex justify-between mx-4  rounded-lg bg-white shadow-[inset_0_-2px_20px_rgba(0,0,0,0.2)] flex-col items-center justify-center">
+        <div class="rounded-full shadow-md w-20 h-20 mt-10 md:mx-36 mx-28 flex items-center justify-center">
+          <img src="assets/heart-tick.png" class="w-10 h-10" />
+        </div>
+
+        <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+          لورم ایپسوم متن ساختگی
+        </h3>
+        <h4 class="text-center text-rose-700 text-base font-semibold my-5">
+          250 هزار تومان
+        </h4>
+        <ul>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+        </ul>
+        <div class="flex justify-center">
+          <button class="my-10 mx-10 px-10 bg-rose-700 text-white font-bold text-center rounded-full w-full py-1">
+            خرید اشتراک
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-between mx-4  rounded-lg bg-white shadow-[inset_0_-2px_20px_rgba(0,0,0,0.2)] flex-col items-center justify-center">
+        <div class="rounded-full shadow-md w-20 h-20 mt-10 md:mx-36 mx-28 flex items-center justify-center">
+          <img src="assets/heart-tick.png" class="w-10 h-10" />
+        </div>
+
+        <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+          لورم ایپسوم متن ساختگی
+        </h3>
+        <h4 class="text-center text-rose-700 text-base font-semibold my-5">
+          250 هزار تومان
+        </h4>
+        <ul>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+        </ul>
+        <div class="flex justify-center">
+          <button class="my-10 mx-10 px-10 bg-rose-700 text-white font-bold text-center rounded-full w-full py-1">
+            خرید اشتراک
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-between mx-4  rounded-lg bg-white shadow-[inset_0_-2px_20px_rgba(0,0,0,0.2)] flex-col items-center justify-center">
+        <div class="rounded-full shadow-md w-20 h-20 mt-10 md:mx-36 mx-28 flex items-center justify-center">
+          <img src="assets/heart-tick.png" class="w-10 h-10" />
+        </div>
+
+        <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+          لورم ایپسوم متن ساختگی
+        </h3>
+        <h4 class="text-center text-rose-700 text-base font-semibold my-5">
+          250 هزار تومان
+        </h4>
+        <ul>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+          <li class="text-sm text-gray-600 text-center mt-3">
+            ورم ایپسوم متن ساختگی , این یکی ی
+          </li>
+        </ul>
+        <div class="flex justify-center">
+          <button class="my-10 mx-10 px-10 bg-rose-700 text-white font-bold text-center rounded-full w-full py-1">
+            خرید اشتراک
+          </button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!--blog1-->
+  <div class="mx-16 my-10">
+    <div class="md:flex justify-between items-center ">
+      <div class="md:w-2/5 flex justify-center">
+        <img src="assets/Frame 651.png" alt="d">
+      </div>
+      <div class="mr-2 md:w-3/4">
+
+        <h3 class="text-2xl font-bold text-gray-900 my-5">
+          لورم ایپسوم متن آماده
+        </h3>
+
+        <p class="text-sm text-gray-600 my-5 leading-relaxed">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+          استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+          رم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+          استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+          رم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+          استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+        </p>
+
+
+        <button class="shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] py-2 px-20 text-rose-700 rounded-2xl my-5">
+          اطلاعات‌بیشتر
+        </button>
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--products-->
+  <div class="lg:m-12 m-4">
+    <div class="flex-col items-center justify-center">
+      <h2 class="text-xl text-gray-900 text-center">گل های آپارتمانی خاص</h2>
+      <hr class="h-1 bg-rose-600 my-2 mx-[580px]" />
+    </div>
+
+
+    <div class="lg:mx-12 mx-4 my-8 flex justify-between justify-between overflow-x-scroll lg:overflow-x-hidden">
+      <div class="p-4 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-lg mx-2 hover:-translate-y-4">
+        <div class="flex w-24 h-44 mx-16 items-center justify-center">
+          <img src="assets/featured (4).jpg" />
+        </div>
+        <div>
+          <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+            گل سانسوریا
+          </h3>
+          <h4 class=" text-gray-400 text-sm m-2">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوملورم ایپسوم متن ساختگی
+            با تولید سادگی نامفهوم
+          </h4>
+
+          <div class="flex justify-between mx-2 my-5 items-center">
+            <div>
+              <p class="text-rose-700">24000 تومان</p>
+            </div>
+            <div class=" p-2 rounded-lg bg-rose-600">
+              <img src="assets/shopping-cart.png" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="p-4 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-lg mx-2 hover:-translate-y-4">
+        <div class="flex w-24 h-44 mx-16 items-center justify-center">
+          <img src="assets/featured (6).jpg" />
+        </div>
+        <div>
+          <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+            گل سانسوریا
+          </h3>
+          <h4 class=" text-gray-400 text-sm m-2">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوملورم ایپسوم متن ساختگی
+            با تولید سادگی نامفهوم
+          </h4>
+
+          <div class="flex justify-between mx-2 my-5 items-center">
+            <div>
+              <p class="text-rose-700">24000 تومان</p>
+            </div>
+            <div class=" p-2 rounded-lg bg-rose-600">
+              <img src="assets/shopping-cart.png" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="p-4 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-lg mx-2 hover:-translate-y-4">
+        <div class="flex w-24 h-44 mx-16 items-center justify-center">
+          <img src="assets/featured (5).jpg" />
+        </div>
+        <div>
+          <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+            گل سانسوریا
+          </h3>
+          <h4 class=" text-gray-400 text-sm m-2">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوملورم ایپسوم متن ساختگی
+            با تولید سادگی نامفهوم
+          </h4>
+
+          <div class="flex justify-between mx-2 my-5 items-center">
+            <div>
+              <p class="text-rose-700">24000 تومان</p>
+            </div>
+            <div class=" p-2 rounded-lg bg-rose-600">
+              <img src="assets/shopping-cart.png" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="p-4 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-lg mx-2 hover:-translate-y-4">
+        <div class="flex w-24 h-44 mx-16 items-center justify-center">
+          <img src="assets/featured (3).jpg" />
+        </div>
+        <div>
+          <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+            گل سانسوریا
+          </h3>
+          <h4 class=" text-gray-400 text-sm m-2">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوملورم ایپسوم متن ساختگی
+            با تولید سادگی نامفهوم
+          </h4>
+
+          <div class="flex justify-between mx-2 my-5 items-center">
+            <div>
+              <p class="text-rose-700">24000 تومان</p>
+            </div>
+            <div class=" p-2 rounded-lg bg-rose-600">
+              <img src="assets/shopping-cart.png" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+  <!-- comments-->
+
+  <div class="mx-2 md:mx-12 my-12">
+    <div class="rounded-xl bg-rose-700 flex-col justify-center my-10 py-6">
+      <h2 class="py-4 text-xl font-bold text-white text-center">
+        برخی از نظرات ارزشمند شما
+      </h2>
+      <p class="py-2 pb-12 px-3 text-sm font-bold text-white text-center">
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپف بهبود
+        ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+        آینده، شناخت فراوان
+      </p>
+    </div>
+    <div class="flex justify-between mx-4 lg:mx-12 -mt-20 overflow-x-scroll lg:overflow-x-hidden">
+      <div
+        class="rounded-lg mx-1 bg-white shadow-[inset_0_-2px_20px_rgba(0,0,0,0.2)] flex-col items-center justify-center">
+        <p class="text-left mt-3 ml-3">ahmadinrges@</p>
+        <div class="rounded-full shadow-md w-20 h-20 mt-3 mx-24 flex items-center justify-center">
+          <img src="assets/Ellipse 11.png" />
+        </div>
+
+        <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+          نرگس احمدی
+        </h3>
+        <h4 class="text-center text-gray-400 text-sm m-5">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوملورم ایپسوم متن ساختگی
+          با تولید سادگی نامفهوم
+        </h4>
+      </div>
+      <div
+        class="rounded-lg mx-1 bg-white shadow-[inset_0_-2px_20px_rgba(0,0,0,0.2)] flex-col items-center justify-center">
+        <p class="text-left mt-3 ml-3">ahmadinrges@</p>
+        <div class="rounded-full shadow-md w-20 h-20 mt-3 mx-24 flex items-center justify-center">
+          <img src="assets/Ellipse 11.png" />
+        </div>
+
+        <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+          نرگس احمدی
+        </h3>
+        <h4 class="text-center text-gray-400 text-sm m-5">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوملورم ایپسوم متن ساختگی
+          با تولید سادگی نامفهوم
+        </h4>
+      </div>
+      <div
+        class="rounded-lg mx-1 bg-white shadow-[inset_0_-2px_20px_rgba(0,0,0,0.2)] flex-col items-center justify-center">
+        <p class="text-left mt-3 ml-3">ahmadinrges@</p>
+        <div class="rounded-full shadow-md w-20 h-20 mt-3 mx-24 flex items-center justify-center">
+          <img src="assets/Ellipse 11.png" />
+        </div>
+
+        <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+          نرگس احمدی
+        </h3>
+        <h4 class="text-center text-gray-400 text-sm m-5">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوملورم ایپسوم متن ساختگی
+          با تولید سادگی نامفهوم
+        </h4>
+      </div>
+      <div
+        class="rounded-lg mx-1 bg-white shadow-[inset_0_-2px_20px_rgba(0,0,0,0.2)] flex-col items-center justify-center">
+        <p class="text-left mt-3 ml-3">ahmadinrges@</p>
+        <div class="rounded-full shadow-md w-20 h-20 mt-3 mx-24 flex items-center justify-center">
+          <img src="assets/Ellipse 11.png" />
+        </div>
+
+        <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+          نرگس احمدی
+        </h3>
+        <h4 class="text-center text-gray-400 text-sm m-5">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوملورم ایپسوم متن ساختگی
+          با تولید سادگی نامفهوم
+        </h4>
+      </div>
+      <div
+        class="rounded-lg mx-1 bg-white shadow-[inset_0_-2px_20px_rgba(0,0,0,0.2)] flex-col items-center justify-center">
+        <p class="text-left mt-3 ml-3">ahmadinrges@</p>
+        <div class="rounded-full shadow-md w-20 h-20 mt-3 mx-24 flex items-center justify-center">
+          <img src="assets/Ellipse 11.png" />
+        </div>
+
+        <h3 class="text-center text-gray-800 text-base font-semibold my-5">
+          نرگس احمدی
+        </h3>
+        <h4 class="text-center text-gray-400 text-sm m-5">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوملورم ایپسوم متن ساختگی
+          با تولید سادگی نامفهوم
+        </h4>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--info box-->
+
+  <div class="mx-12 md:flex justify-between">
+    <div class="my-5 h-44 w-full flex justify-center mx-2">
+      <div class="px-10 flex shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-lg">
+        <div class="flex-col mt-12 justify-center items-center">
+          <h2 class="font-extrabold text-3xl text-rose-600 pb-2">گل‌قرمز</h2>
+          <p class="text-gray-400 text-md mt-3 sm:flex hidden">
+            فعلی سطرآنچنان که لازم است و برای شرایط
+          </p>
+        </div>
+        <img src="assets/5.png" class="-mt-8" />
+      </div>
+    </div>
+    <div class="my-5 h-44 w-full flex justify-center mx-2">
+      <div class="px-10 flex shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-lg">
+        <img src="assets/4.png" class="-mt-8 -mr-8" />
+        <div class="flex-col mt-12 justify-center items-center">
+          <h2 class="font-extrabold text-3xl text-yellow-500 pb-2 ">گل‌زرد</h2>
+          <p class="text-gray-400 text-md mt-3 sm:flex hidden">
+            سطرآنچنان که لازم است و برای شرایط فعلی
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--products2-->
+  <div class="lg:m-12 m-4">
+    <div class="flex-col items-center justify-center">
+      <h2 class="text-xl text-gray-900 text-center">هدیه ای زیبا برای عزیزانتان</h2>
+      <hr class="h-1 bg-rose-600 my-2 mx-[580px]" />
+    </div>
+    <div class="md:mx-12 mx-2 my-8 flex justify-between overflow-x-scroll lg:overflow-x-hidden">
+      <div
+        class="p-4 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-lg mx-2 hover:shadow-[inset_0_-2px_20px_rgba(178,1,39,0.20)]">
+        <div class="flex w-24 h-44 mx-16 items-center justify-center">
+          <img src="assets/featured (9).jpg" />
+        </div>
+        <div>
+          <h3 class="text-center text-gray-800 text-base font-semibold my-3">
+            باکس گل
+          </h3>
+          <hr class="h-1 bg-rose-600 my-2 mx-24" />
+          <div>
+            <p class="text-gray-800 text-center my-3">24000 تومان</p>
+          </div>
+          <div class=" px-4 py-1 rounded-full bg-rose-600 text-white text-center mx-8">
+            سبد خرید
+
+          </div>
+        </div>
+
+      </div>
+      <div
+        class="p-4 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-lg mx-2 hover:shadow-[inset_0_-2px_20px_rgba(178,1,39,0.20)]">
+        <div class="flex w-24 h-44 mx-16 items-center justify-center">
+          <img src="assets/featured (9).jpg" />
+        </div>
+        <div>
+          <h3 class="text-center text-gray-800 text-base font-semibold my-3">
+            باکس گل
+          </h3>
+          <hr class="h-1 bg-rose-600 my-2 mx-24" />
+          <div>
+            <p class="text-gray-800 text-center my-3">24000 تومان</p>
+          </div>
+          <div class=" px-4 py-1 rounded-full bg-rose-600 text-white text-center mx-8">
+            سبد خرید
+
+          </div>
+        </div>
+
+      </div>
+      <div
+        class="p-4 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-lg mx-2 hover:shadow-[inset_0_-2px_20px_rgba(178,1,39,0.20)]">
+        <div class="flex w-24 h-44 mx-16 items-center justify-center">
+          <img src="assets/featured (9).jpg" />
+        </div>
+        <div>
+          <h3 class="text-center text-gray-800 text-base font-semibold my-3">
+            باکس گل
+          </h3>
+          <hr class="h-1 bg-rose-600 my-2 mx-24" />
+          <div>
+            <p class="text-gray-800 text-center my-3">24000 تومان</p>
+          </div>
+          <div class=" px-4 py-1 rounded-full bg-rose-600 text-white text-center mx-8">
+            سبد خرید
+
+          </div>
+        </div>
+
+      </div>
+      <div
+        class="p-4 shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] rounded-lg mx-2 hover:shadow-[inset_0_-2px_20px_rgba(178,1,39,0.20)]">
+        <div class="flex w-24 h-44 mx-16 items-center justify-center">
+          <img src="assets/featured (9).jpg" />
+        </div>
+        <div>
+          <h3 class="text-center text-gray-800 text-base font-semibold my-3">
+            باکس گل
+          </h3>
+          <hr class="h-1 bg-rose-600 my-2 mx-24" />
+          <div>
+            <p class="text-gray-800 text-center my-3">24000 تومان</p>
+          </div>
+          <div class=" px-4 py-1 rounded-full bg-rose-600 text-white text-center mx-8">
+            سبد خرید
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!--blog2-->
+  <div class="lg:m-12 m-4 my-10">
+    <div class="md:flex justify-between items-center ">
+      <div class="mr-2 md:w-3/4">
+
+        <h3 class="text-2xl font-bold text-gray-900 my-5">
+          لورم ایپسوم متن آماده
+        </h3>
+
+        <p class="text-sm text-gray-600 my-5 leading-relaxed">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+          استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+          رم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+          استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+          رم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+          استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+        </p>
+
+
+        <button class="shadow-[inset_0_-2px_20px_rgba(0,0,0,0.1)] py-2 px-20 text-rose-700 rounded-2xl my-5">
+          اطلاعات‌بیشتر
+        </button>
+
+
+      </div>
+      <div class="md:w-2/5 flex justify-center">
+        <img src="assets/Frame 65.png" alt="d">
+      </div>
+    </div>
+  </div>
+
+  <!--image gallery -->
+
+  <div class="lg:m-12 m-4 my-10">
+    <div>
+      <h2 class="text-xl text-gray-900">گالری تصاویر زیبای شما</h2>
+      <hr class="h-1 bg-rose-600 my-2 w-24" />
+    </div>
+    <div class="my-5 rounded-full flex items-center justify-center">
+      <div class="grid md:grid-cols-4 gap-2 grid-cols-2">
+        <img src="assets/Rectangle 23.png" class="hover:rounded-xl rounded-tr-full hover:scale-125 w-72 h-60" />
+        <img src="assets/Rectangle 27.png"
+          class="hover:rounded-xl hover:scale-125 rounded-tl-full md:rounded-none w-72 h-60" />
+        <img src="assets//Rectangle 31.png" class="hover:rounded-xl hover:scale-125 w-72 h-60" />
+        <img src="assets/Rectangle 30.png" class="hover:rounded-xl  hover:scale-125 md:rounded-tl-full w-72 h-60" />
+
+        <img src="assets/Rectangle 30.png" class="hover:rounded-xl  hover:scale-125 md:rounded-br-full w-72 h-60" />
+        <img src="assets/Rectangle 27.png" class="hover:rounded-xl hover:scale-125 w-72 h-60" />
+        <img src="assets/Rectangle 31.png"
+          class="hover:rounded-xl hover:scale-125 w-72 h-60 rounded-br-full md:rounded-none" />
+        <img src="assets/Rectangle 23.png" class="hover:rounded-xl rounded-bl-full hover:scale-125 w-72 h-60" />
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <hr class="shadow-md" />
+
+    <div class="hidden lg:block">
+      <div class="py-3">
+        <div class="flex justify-between mx-10">
+          <div>
+            <ul class="flex text-sm mt-3">
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">صفحه اصلی</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">فروشگاه</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">وبلاگ</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">تماس با ما</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">درباره ما</a>
+              </li>
+            </ul>
+          </div>
+          <div><img src="assets/logo.png" /></div>
+          <div>
+            <ul class="flex text-sm mt-3">
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">شاخه گل </a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">باکس گل</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">سبد گل</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">گل آپارتمانی</a>
+              </li>
+              <li class="mx-3 hover:text-rose-500">
+                <a href="#">تاج گل </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gray-500 py-2">
+        <div class="flex justify-between px-10">
+          <div class="text-white">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+          </div>
+
+          <div class="text-white flex mt-1">
+            <a href="#" class="hover:border-b hover:rounded-lg hover:border-rose-200">
+              <img src="assets/icons_social-facebook.png" class="mx-2 w-4 h-4" /></a>
+            <a href="#" class="hover:border-b hover:rounded-lg hover:border-rose-200">
+              <img src="assets/icons_social-instagram.png" class="mx-2 w-4 h-4" /></a>
+            <a href="#" class="hover:border-b hover:rounded-lg hover:border-rose-200">
+              <img src="assets/icons_social-linkedin.png" class="mx-2 w-4 h-4" /></a>
+            <a href="#" class="hover:border-b hover:rounded-lg hover:border-rose-200">
+              <img src="assets/icons_social-pintarest.png" class="mx-2 w-4 h-4" /></a>
+            <a href="#" class="hover:border-b hover:rounded-lg hover:border-rose-200">
+              <img src="assets/icons_social-twitter.png" class="mx-2 w-4 h-4" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--responsive footer-->
+    <div class="lg:hidden">
+      <div class="py-3">
+        <div class="flex justify-center mx-10">
+
+          <div><img src="assets/logo.png" /></div>
+
+        </div>
+      </div>
+
+      <div class="flex justify-center px-10 bg-gray-500 py-2">
+        <p class="text-white text-center text-sm">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+        </p>
+
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

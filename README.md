@@ -9,10 +9,6 @@ This is a free rtl landing page template built with html and Tailwind CSS .
 
 
 
-https://drive.google.com/file/d/1B_Pk5REhIzgpuW3Q2Xj9rC017fHKnFIK/view?usp=share_link
-
-
-
 ## 🚀 About Me
 I'm a Front end developer and web designer 
 

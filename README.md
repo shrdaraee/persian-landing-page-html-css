@@ -5,6 +5,9 @@
 This is a free rtl landing page template built with html and Tailwind CSS .
 
 
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 

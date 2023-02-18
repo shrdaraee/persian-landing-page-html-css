@@ -13,7 +13,7 @@ This is a free rtl landing page template built with html and Tailwind CSS .
 
 
 ## 🚀 About Me
-I'm a Front end developer and web designer 
+I'm a front end developer and web designer 
 
 
 

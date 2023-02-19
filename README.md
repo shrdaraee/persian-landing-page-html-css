@@ -1,5 +1,5 @@
 
-##persian landing page template (html/css)
+## persian landing page template (html/css)
 
 Hello everyone,
 

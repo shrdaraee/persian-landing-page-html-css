@@ -1,6 +1,7 @@
 
 ## Free persian landing page template (html/css)
 
+Hello everyone,
 
 This is a free rtl landing page template built with html and Tailwind CSS .
 

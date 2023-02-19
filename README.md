@@ -3,8 +3,9 @@
 
 Hello everyone,
 
-This is a free rtl landing page template built with html and Tailwind CSS .
+This is a RTL landing page template built with html and Tailwind CSS .
 
+This project is fully responsive.
 
 ## Screenshots
 

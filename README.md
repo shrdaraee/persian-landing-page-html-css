@@ -15,7 +15,7 @@ This project is fully responsive.
 
 
 ## 🚀 About Me
-I'm a front end developer and web designer 
+I'm front end developer and web designer 
 
 
 
